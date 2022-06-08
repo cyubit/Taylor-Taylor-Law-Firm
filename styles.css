@@ -3,6 +3,16 @@ body {
 }
 
 header {
-    color: rgb(173,166,119);
     text-align: center;
 }
+
+#heading {
+    width: fit-content;
+
+}
+
+#heading a {
+    color: rgb(173,166,119);
+    text-decoration: none;
+}
+
