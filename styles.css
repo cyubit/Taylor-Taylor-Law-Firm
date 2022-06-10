@@ -27,9 +27,10 @@ header a:hover {
     max-width: 100%;
 }
 
-div.container .btn {
+div.container .btn, input[type="submit"] {
     background-color: #FFFFFFAB;
     border: solid 4px rgb(173,166,119);
+    color: black;
 }
 
 .handshake img {
@@ -52,4 +53,23 @@ form .row label {
     color: darkgrey;
     margin-left: 10px;
     font-size: larger;
+}
+
+.card {
+    background-color: darkgrey;
+    border: solid 4px rgb(173,166,119);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bi {
+    color: rgb(150, 132, 18);;
+}
+
+section h2, .infotitle{
+    color: rgb(173,166,119);
+}
+section p {
+    color:darkgrey;
+    max-width: 1400px;
 }
