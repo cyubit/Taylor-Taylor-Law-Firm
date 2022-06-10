@@ -23,3 +23,7 @@ header a:hover {
     max-width: 100%;
 }
 
+div.container .btn {
+    background-color: #FFFFFFAB;
+    border: solid 4px rgb(173,166,119);
+}
