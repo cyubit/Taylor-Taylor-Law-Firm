@@ -3,16 +3,22 @@ body {
 }
 
 header {
-    text-align: center;
+    max-width: fit-content;
+    margin: 0 auto;
 }
-
-#heading {
-    width: fit-content;
-
-}
-
-#heading a {
+header a {
     color: rgb(173,166,119);
     text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
 }
 
+header a:hover {
+    text-decoration: none;
+    color: rgb(173,166,119);
+}
+
+.front-page img {
+    max-width: 100%;
+}
