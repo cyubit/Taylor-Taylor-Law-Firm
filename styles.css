@@ -39,3 +39,7 @@ div.container .btn {
 .page-name {
     color: rgb(173,166,119);
 }
+
+div.container.row .col p{
+    font-size: larger;
+}
