@@ -14,68 +14,90 @@
     </header>
 
     <div class="page-name">
-        <h1 class="text-center">Book Now</h1>
+        <h1 class="text-center my-2">Book Now</h1>
     </div>
 
     <div class="handshake d-flex justify-content-center my-3">
         <img src="images/handshake.jpeg">
     </div>
-
+    
     <form class="container">
         <div class="row">
             <div class="col">
                 <h3>Your Information</h3>
-                <input type="text" id="name" placeholder="Name" required>
-                <br><br>
-                <input type="email" id="email" placeholder="Email" required>
-                <br><br>
-                <input type="tel" id="phone" placeholder="Phone Number" required>
-                <br><br>
-                <input type="text" id="address" placeholder="Address" required>
-                <br><br>
-                <input type="text" id="zip" placeholder="Zip Code" required>
-                <br><br>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <br>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <br>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                <br>
+                <input type="text" class="form-control" id="address" placeholder="Address" required>
+                <br>
+                <input type="text" class="form-control" id="zip" placeholder="Zip Code" required>
+                <br>
             </div>
 
-            <div class="col">
+            <div class="col mb-5">
                 <h3>Desired Service</h3>
-                <input type="radio" name="service" value="" id="op1" required>
-                <label for="op1">Business Law</label>
-                <input type="radio" name="service" value="" id="op2">
-                <label for="op2">Bankruptcy</label>
-                <input type="radio" name="service" value="" id="op3">
-                <label for="op3">Intellectual Property</label>
-                <input type="radio" name="service" value="" id="op4">
-                <label for="op4">Personal Injury</label>
-                <br><br>
+                <div class="row mb-2"> 
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="service" value="" id="op1" required>
+                        <label class="form-check-label" for="op1">Business Law</label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="service" value="" id="op2">
+                        <label class="form-check-label" for="op2">Bankruptcy</label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="service" value="" id="op3">
+                        <label class="form-check-label" for="op3">Intellectual Property</label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="service" value="" id="op4">
+                    <label class="form-check-label" for="op4">Personal Injury</label>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <h3>Preferred Expert</h3>
 
-                <h3>Preferred Expert</h3>
-                <select name="expert" id="expert">
-                    <option value="none">No Preference</option>
-                    <option value="jeff">Jeff Taylor</option>
-                    <option value="diana">Diana Taylor</option>
-                </select>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="expert" value="none" required>
+                        <label class="form-check-label" for="op1">No Preference</label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="expert" value="jeff" required>
+                        <label class="form-check-label" for="op1">Jeff Taylor</label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="radio" class="form-check-input" name="expert" value="diana" required>
+                        <label class="form-check-label" for="op1">Diana Taylor</label>
+                    </div>
+                </div>
             </div>
 
             <div class="col">
                 <h3>Appointment Date</h3>
-                <label for="date">Date</label>
-                <input type="date" id="date" required>
-                <br><br>
 
-                <select class="mx-3" name="time" id="time">
-                    <option value="no-time">Time</option>
-                    <option value="0900">9 am</option>
-                    <option value="1000">10 am</option>
-                    <option value="1100">11 am</option>
-                    <option value="1200">12 pm</option>
-                    <option value="1300">1 pm</option>
-                    <option value="1400">2 pm</option>
-                    <option value="1500">3 pm</option>
-                    <option value="1600">4 pm</option>
-                </select>
+                <div class="row mt-4 mb-4">
+                    <input type="date" class="form-control" id="date" required>
+                </div>
 
-                <input type="submit" value="submit">
+                <div class="row mb-4">
+                    <select class="form-control" name="time" id="time">
+                        <option value="no-time">Time</option>
+                        <option value="0900">9 am</option>
+                        <option value="1000">10 am</option>
+                        <option value="1100">11 am</option>
+                        <option value="1200">12 pm</option>
+                        <option value="1300">1 pm</option>
+                        <option value="1400">2 pm</option>
+                        <option value="1500">3 pm</option>
+                        <option value="1600">4 pm</option>
+                    </select>    
+                </div>
+                
+                <input type="submit" class="form-control" value="submit">
             </div>
 
         </div>
