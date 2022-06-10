@@ -73,3 +73,7 @@ section p {
     color:darkgrey;
     max-width: 1400px;
 }
+
+footer {
+    background-color: darkgrey
+}
